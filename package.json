@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server":"nodemon firstserver/index.js",
-    "start":"node firstserver/index.js",
-    "build":"npm install && npm install -- prefix client_middleware && npm run build --prefix client_middleware"
+    "server": "nodemon firstServer/index.js",
+    "start": "node firstServer/index.js",
+    "build": "npm install && npm install -- prefix client_middleware && npm run build --prefix client_middleware"
   },
   "keywords": [],
   "author": "",

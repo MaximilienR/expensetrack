@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon firstServer/index.js",
-    "start": "node firstServer/index.js",
+    "server": "nodemon server_middleware/index.js",
+    "start": "node server_middleware/index.js",
     "build": "npm install && npm install -- prefix client_middleware && npm run build --prefix client_middleware"
   },
   "keywords": [],

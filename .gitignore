@@ -1,0 +1,10 @@
+node_modules
+dist
+server_middleware/node_modules
+server_middleware/.env
+server_middleware/package-lock.json
+client_middleware/node_modules
+client_middleware/.env
+client_middleware/package-lock.json
+package-lock.json
+.env

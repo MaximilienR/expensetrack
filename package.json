@@ -5,7 +5,8 @@
   "scripts": {
     "server": "nodemon server_middleware/index.js",
     "start": "node server_middleware/index.js",
-    "build": "npm install && npm install -- prefix client_middleware && npm run build --prefix client_middleware"
+    "build": "npm install && npm install --prefix client_middleware && npm run build --prefix client_middleware",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
